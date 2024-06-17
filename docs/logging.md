@@ -10,5 +10,5 @@ This document provides an overview of the scripts located in the `scripts/loggin
 
 Script extracts unique IPs from the Log file passed as an input and gives the IPs in the form of a list
 
-[Source Script](scripts/logging/extract_unique_ips_from_logs.py)
-[UnitTest Script](tests/logging/test_extract_unique_ips_from_logs.py)
+[Source Script](../scripts/logging/extract_unique_ips_from_logs.py)
+[UnitTest Script](../tests/logging/test_extract_unique_ips_from_logs.py)
