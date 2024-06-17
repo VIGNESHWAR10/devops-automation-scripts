@@ -2,23 +2,13 @@
 
 This document provides an overview of the scripts located in the `scripts/logging` directory. Each script has a specific purpose in logging various aspects of the system.
 
-## Table of Contents
+## Available Scripts
 
-- [Script 1](#script-1)
-- [Script 2](#script-2)
-- [Script 3](#script-3)
-- ...
+- [Extract Unique IPs From Logs](#extract_unique_ips_from_logs.py)
 
-## Script 1
+### extract_unique_ips_from_logs.py
 
-Description of what Script 1 does, how to use it, and any output or side effects.
+Script extracts unique IPs from the Log file passed as an input and gives the IPs in the form of a list
 
-## Script 2
-
-Description of what Script 2 does, how to use it, and any output or side effects.
-
-## Script 3
-
-Description of what Script 3 does, how to use it, and any output or side effects.
-
-...
+[Source Script](scripts/logging/extract_unique_ips_from_logs.py)
+[UnitTest Script](tests/logging/test_extract_unique_ips_from_logs.py)
